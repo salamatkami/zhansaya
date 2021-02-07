@@ -1,0 +1,113 @@
+
+
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background: ;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+
+
+}
+
+button {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	cursor: pointer;
+
+
+}
+
+.header{
+
+
+}
+
+.title{
+	color: #2F281E;
+
+	
+}
+
+
+
+.container{
+	max-width: 1124px;
+	background: white;
+	margin: 0 auto;
+	padding: 0 10px;
+		height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+ background-image: url('../images/jjj.jpg');
+}
+
+
+.header__inner{	
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 78px;
+
+
+	
+
+}
+
+.menu{
+	margin-left: auto;
+
+}
+
+.menu__list{
+	display: flex;
+	margin: 0px 0px 0px 100px;
+
+}
+
+.menu__list-item + .menu__list-item{
+	margin-left: 24px;
+
+}
+
+.menu__list-link{
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 400;
+
+}
+.user-nav{
+	margin-left: 52px;
+	margin-right: 13px;
+}
+
+.user-nav__link{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	border: 3px solid #BCD0E5;    
+	border-radius: 6px;
+	padding: 11px 23px;
+}
+
+.user-nav__link + .user-nav__link{
+	margin-left: 14px;
+	border-color:transparent;
+	background-color:#ff9900;
+	color: #fff;
+}
